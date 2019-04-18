@@ -39,9 +39,6 @@ function mousePressed() {
 }
 
 function draw() {
-  // background(0)
-  teacher.display();
-
   fill(90,90,90);
   textAlign(CENTER);
   textSize(20);
@@ -52,6 +49,7 @@ function draw() {
   text('"Berkeley Progressive"', progressiveX + 15, (progressive.sprite.height/2) + 280);
 
 
+  teacher.display();
   student.display();
   progressive.display();
 
